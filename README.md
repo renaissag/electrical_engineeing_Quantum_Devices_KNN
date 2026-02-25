@@ -6,9 +6,9 @@
 
 ## Data Preprocessing Workflow
   ### To prepare the data for the KNN and Random Forest models, the following program was executed:
-  ### - Outlier Cleanup: Continuous variables (e.g., temperature_K, bias_voltage_V) were processed using an IQR-based function to cap values at lower and upper fences (1.5 * IQR).
-  ### - Label Encoding: Categorical columns like device_type and material_system were transformed into numerical format using LabelEncoder.
-  ### - Feature Scaling: All numerical columns were normalized using MinMaxScaler to ensure consistent weighting across different units (e.g., Kelvin vs. eV).
+      - **Outlier Cleanup:** Continuous variables (e.g., temperature_K, bias_voltage_V) were processed using an IQR-based function to cap values at lower and upper fences (1.5 * IQR).
+      - **Label Encoding:** Categorical columns like device_type and material_system were transformed into numerical format using LabelEncoder.
+      - **Feature Scaling:** All numerical columns were normalized using MinMaxScaler to ensure consistent weighting across different units (e.g., Kelvin vs. eV).
 
 ## Results & Interpretations
   ### 1. K-Nearest Neighbors (KNN)
