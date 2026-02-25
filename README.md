@@ -19,7 +19,7 @@ Results & Interpretations
   2. Random Forest
     Performance: Random Forest was the top-performing model with an accuracy of 92.44% and a Macro F1 score of 0.915.
     Advantage: This ensemble method likely handled the non-linear relationships between variables like bandgap_eV and spin_polarization more effectively than the distance-based KNN.
-    <img width="965" height="658" alt="image" src="https://github.com/user-attachments/assets/f1418e44-5bf8-4b7f-a16b-26d9b10d7506" />
+    <img width="320" height="107" alt="image" src="https://github.com/user-attachments/assets/e2eff42d-9e9a-4a3c-a2a1-622a527b6cc0" />
 
   4. PCA Visualization
     Dimensionality Reduction: PCA reduced the 18-feature dataset into two principal components (PC1 and PC2) for visualization.
