@@ -15,13 +15,13 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
   - **Optimal Configuration:** The optimal neighbor count of **k=23** was determined using both the automatic `GridSearchCV` and the visual Elbow Method. The maximum prediction accuracy while maintaining strong generalization is confirmed by this combination at **k=23**.
   - **Tuning Parameters:** To ensure that closer physical parameters in the feature space had a relatively greater impact on the classification, the model was further optimized using Manhattan distance and distance-based weighting.
   - **Key Drivers:** Features such as `quantum_efficiency` and `bias_voltage_V` were highly informative, as higher injection and efficiency naturally lead to enhanced device performance.
-  - **Performance:** Following the `StandardScaler` application and hyperparameter tuning, the model achieved an **accuracy of 90.67%** and a **F1 score of 89.39%**.
+  - **Performance:** Following the `StandardScaler` application and hyperparameter tuning, the model achieved an **accuracy of 90.67%** and a **F1 score of 0.8939**.
     
   <img width="863" height="555" alt="download" src="https://github.com/user-attachments/assets/c344034e-a2a2-475e-be2c-9f6fba821f54" />
 
 
   ### 2. Random Forest
-  - **Performance:** Random Forest was the top-performing model with an **accuracy of 92.44%** and a **Macro F1 score of 91.53%**.
+  - **Performance:** Random Forest was the top-performing model with an **accuracy of 92.44%** and a **Macro F1 score of 0.9153**.
   - **Advantage:** This ensemble method likely handled the non-linear relationships between variables like `bandgap_eV` and `spin_polarization` more effectively than the distance-based KNN.
 
   <img width="320" height="100" alt="image" src="https://github.com/user-attachments/assets/9fe385a9-0b9d-42e0-abb9-60fbf8b0be08" />
