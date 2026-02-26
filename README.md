@@ -27,8 +27,9 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
 
 
   ### 3. PCA (Principal Component Analysis) Visualization
-  - **Dimensionality Reduction:** PCA reduced the high-dimensional feature set of 18 columns into two principal components (PC1 and PC2) for visualization.
-  - **Cluster Analysis:** The PCA scatter plot displays how various quantum devices divide into "classes" according to their fundamental physical characteristics. This determines the main causes of variations in device performance, including the difference between emitters of visible and infrared light. The clusters actually represent the variance anomg quantum device types. The spread along PC1 typically represents the feature with the highest variance (likely `temperature_K` or `bias_voltage_V`).
-
-  <img width="684" height="547" alt="image" src="https://github.com/user-attachments/assets/c646e598-f00f-4961-af4d-65400a2ae73d" />
+  - **Dimensionality Reduction:** To visualize complex device relationships, 18 high-dimensional physical properties have been divided into two Principal Components (PC1 and PC2).
+  - **Cluster Analysis:** Based on fundamental physical characteristics, the figure shows natural clusters. The difference between visible and infrared light emitters is one example of how different quantum device types and material systems are represented in this separation. The experimental variables such as `temperature_K` and `bias_voltage_V` significantly influence the primary variance (PC1).
+  - **Impact of Standardization:** The use of `StandardScaler` was essential because it reduced unit-scale bias, which made it possible to differentiate clusters more clearly and determine the main physical causes of device variance.
+    
+  <img width="671" height="547" alt="download" src="https://github.com/user-attachments/assets/cbebae55-f4d5-4cdd-b559-4c57eb8937c7" />
 
