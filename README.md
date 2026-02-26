@@ -14,7 +14,7 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
   ### 1. K-Nearest Neighbors (KNN)
   - **Optimal Configuration:** The use of **k=23** (from the elbow plot) or the tuned **k=9** (from the grid search) both represent a significant optimization over the default settings and the ideal neighbor count for maximum accuracy.
   - **Key Drivers:** Features such as `quantum_efficiency` and `bias_voltage_V` were highly informative, as higher injection and efficiency naturally lead to enhanced device performance.
-  - **Performance:** The model achieved an **accuracy of 90.67%** and a **F1 score of 89.39%**.
+  - **Performance:** Following the `StandardScaler` application and hyperparameter tuning, the model achieved an **accuracy of 90.67%** and a **F1 score of 89.39%**.
     
   <img width="863" height="555" alt="download" src="https://github.com/user-attachments/assets/c344034e-a2a2-475e-be2c-9f6fba821f54" />
 
@@ -33,3 +33,6 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
     
   <img width="671" height="547" alt="download" src="https://github.com/user-attachments/assets/cbebae55-f4d5-4cdd-b559-4c57eb8937c7" />
 
+
+  ### Key Decision: 
+  - Both models are highly reliable for identifying "Class 0" (non-compliant) devices, with exactly 141 True Negatives each.
