@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, 750 quantum electronic and spintronic devices are used as a specific dataset for machine learning. Using physical characteristics, material systems, and operational parameters, the objective is to classify whether a device **meets specifications (Class 1)** or is **non-compliant (Class 0)**.
+In this project, 750 quantum electronic and spintronic devices are used as a specific dataset for machine learning model performance. Using physical characteristics, material systems, and operational parameters, the objective is to classify whether a device **meets specifications (Class 1)** or is **non-compliant (Class 0)**.
 
 ## Data Preprocessing Workflow
   ### To prepare the data for the KNN and Random Forest models, the following program was executed:
