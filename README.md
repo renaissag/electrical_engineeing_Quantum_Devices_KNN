@@ -12,7 +12,8 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
 
 ## Results & Interpretations
   ### 1. K-Nearest Neighbors (KNN)
-  - **Optimal Configuration:** The use of **k=23** (from the elbow plot) or the tuned **k=9** (from the grid search) both represent a significant optimization over the default settings and the ideal neighbor count for maximum accuracy.
+  - **Optimal Configuration:** The optimal neighbor count of **k=23** was determined using both the automatic `GridSearchCV` and the visual Elbow Method. The maximum prediction accuracy while maintaining strong generalization is confirmed by this combination at **k=23**.
+  - **Tuning Parameters:** To ensure that closer physical parameters in the feature space had a relatively greater impact on the classification, the model was further optimized using Manhattan distance and distance-based weighting.
   - **Key Drivers:** Features such as `quantum_efficiency` and `bias_voltage_V` were highly informative, as higher injection and efficiency naturally lead to enhanced device performance.
   - **Performance:** Following the `StandardScaler` application and hyperparameter tuning, the model achieved an **accuracy of 90.67%** and a **F1 score of 89.39%**.
     
