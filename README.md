@@ -15,8 +15,8 @@ In this project, 750 quantum electronic and spintronic devices are used as a spe
   - **Optimal Configuration:** An elbow method identified **k=23** as the ideal neighbor count for maximum accuracy.
   - **Key Drivers:** Features such as `quantum_efficiency` and `bias_voltage_V` were highly informative, as higher injection and efficiency naturally lead to enhanced device performance.
   - **Performance:** The model achieved an **accuracy of 90.22%** and a **F1 score of 88.85%**.
-
-  <img width="965" height="658" alt="image" src="https://github.com/user-attachments/assets/7d89cf0a-701a-492f-b8d6-8fad6bcd73a3" />
+    
+  <img width="855" height="555" alt="download" src="https://github.com/user-attachments/assets/040e41cb-1b2c-4c8d-abf0-859ffb8f05b9" />
 
 
   ### 2. Random Forest
